@@ -1,11 +1,10 @@
-import React from 'react';
-import PrinterSetupGuide from './PrinterSetupGuide';
-import Disclaimer from './Disclaimer';
-import { Link } from 'react-router-dom';
-import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
-import ChatIcon from '@mui/icons-material/Chat';
-import SettingsSuggestIcon from '@mui/icons-material/SettingsSuggest';
-import BuildIcon from '@mui/icons-material/Build';
+import PrinterSetupGuide from "./PrinterSetupGuide";
+import Disclaimer from "./Disclaimer";
+// import { Link } from "react-router-dom";
+// import HeadsetMicIcon from "@mui/icons-material/HeadsetMic";
+// import ChatIcon from "@mui/icons-material/Chat";
+// import SettingsSuggestIcon from "@mui/icons-material/SettingsSuggest";
+// import BuildIcon from "@mui/icons-material/Build";
 
 const Home = () => {
   return (
@@ -40,45 +39,41 @@ const Home = () => {
         </div>
       </div>
 
-      <section className="bg-white py-10">
+      {/* <section className="bg-white py-10">
         <p className="text-2xl font-bold text-center mb-8">
           Instant Support on live chat
         </p>
 
         <div className="flex justify-center gap-8">
-          {/* Contact */}
           <div className="text-center">
             <div className="bg-black rounded-full w-24 h-24 flex items-center justify-center text-white text-4xl mx-auto mb-4">
-              <HeadsetMicIcon sx={{ fontSize: '3rem' }} />
+              <HeadsetMicIcon sx={{ fontSize: "3rem" }} />
             </div>
             <p className="text-lg font-semibold">Contact</p>
           </div>
 
-          {/* Chat */}
           <div className="text-center">
             <div className="bg-black rounded-full w-24 h-24 flex items-center justify-center text-white text-4xl mx-auto mb-4">
-              <ChatIcon sx={{ fontSize: '3rem' }} />
+              <ChatIcon sx={{ fontSize: "3rem" }} />
             </div>
             <p className="text-lg font-semibold">Chat</p>
           </div>
 
-          {/* Setup & Install */}
           <div className="text-center">
             <div className="bg-black rounded-full w-24 h-24 flex items-center justify-center text-white text-4xl mx-auto mb-4">
-              <SettingsSuggestIcon sx={{ fontSize: '3rem' }} />
+              <SettingsSuggestIcon sx={{ fontSize: "3rem" }} />
             </div>
             <p className="text-lg font-semibold">Setup & install</p>
           </div>
 
-          {/* Diagnose & Fix */}
           <div className="text-center">
             <div className="bg-black rounded-full w-24 h-24 flex items-center justify-center text-white text-4xl mx-auto mb-4">
-              <BuildIcon sx={{ fontSize: '3rem' }} />
+              <BuildIcon sx={{ fontSize: "3rem" }} />
             </div>
             <p className="text-lg font-semibold">Diagnose & Fix</p>
           </div>
         </div>
-      </section>
+      </section> */}
       <PrinterSetupGuide />
       <Disclaimer />
     </div>

@@ -1,6 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import JivoChatWidget from './JivochatWidget';
+import { Link } from "react-router-dom";
+// import JivoChatWidget from "./JivochatWidget";
 
 const Navbar = () => {
   return (
@@ -27,7 +26,7 @@ const Navbar = () => {
       <ul className="flex flex-col sm:flex-row sm:space-x-8 bg-black text-white py-2 px-4 sm:px-8">
         <li>
           <Link
-            // to="/"
+            to="/"
             className="hover:text-gray-300 cursor-pointer block py-2 sm:py-0"
           >
             Support Home
@@ -35,7 +34,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            // to="/printeroffline"
+            to="/printeroffline"
             className="hover:text-gray-300 cursor-pointer block py-2 sm:py-0"
           >
             Printer Offline
@@ -43,7 +42,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            // to="/printersetupissue"
+            to="/printersetupissue"
             className="hover:text-gray-300 cursor-pointer block py-2 sm:py-0"
           >
             Printer Setup
