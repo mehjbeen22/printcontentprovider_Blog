@@ -12,6 +12,7 @@ import PrinterSetupIssue from "./pages/PrinterSetupIssue";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
 import DownloadPage from "./pages/download/DownloadPage";
+import ScannerSetup from "./pages/ScannerSetup";
 // import JivoChatWidget from "./pages/JivochatWidget";
 
 // // Component to conditionally render JivoChatWidget
@@ -66,6 +67,7 @@ const App = () => {
           }
         />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/scannersetup" element={<ScannerSetup />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/downloadDrivers" element={<DownloadPage />} />
       </Routes>
