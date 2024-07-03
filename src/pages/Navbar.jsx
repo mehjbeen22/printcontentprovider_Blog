@@ -32,7 +32,7 @@ const Navbar = () => {
             to="/"
             className="hover:text-gray-300 cursor-pointer block py-2 sm:py-0"
           >
-            Support Home
+             Home
           </Link>
         </li>
         <li>
