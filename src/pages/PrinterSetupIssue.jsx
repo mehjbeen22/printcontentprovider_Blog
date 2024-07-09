@@ -1,4 +1,4 @@
-// import ProductFinder from './ProductFinder';
+// import ProductFinder from "./ProductFinder";
 const PrinterSetupIssue = () => {
   return (
     <main className="bg-white min-h-screen flex flex-col justify-center items-center py-12 px-4 sm:px-6 mt-20 lg:px-8">
